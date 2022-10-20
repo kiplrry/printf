@@ -59,9 +59,9 @@ unsigned int num;
 num = va_arg(list, unsigned int);
 
 if (num == 0)
-    return (print_unsgined_number(num));
+return (print_unsgined_number(num));
 
 if (num < 1)
-    return (-1);
+return (-1);
 return (print_unsgined_number(num));
 }
